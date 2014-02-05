@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+body {
+  width: 300px;
+}
+
+#name {
+  border-bottom: 1px silver solid;
+  font-size: 16px;
+  padding: 14px;
+}
+
+#balance-display {
+  padding: 7px;
+  margin: 7px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+#balance {
+  font-weight: bold;
+}
+
+#goto {
+  display: inline-block;
+  padding: 7px;
+  margin: 7px;
+  background: #f15d2d;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  float: right;
+  font-size: 13px;
+}
+
+#goto:hover {
+  background: #F47D57;
+  cursor: pointer;
+}

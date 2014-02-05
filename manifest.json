@@ -1,0 +1,21 @@
+{
+  "name": "SJC Card Balance",
+  "description": "Making the meal booking system a bit less shit",
+  "icons": { "128": "main-icon.png" },
+  "manifest_version": 2,
+  "version": "1",
+  "permissions": [
+    "tabs", "http://hall.sjc.ox.ac.uk/", "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
